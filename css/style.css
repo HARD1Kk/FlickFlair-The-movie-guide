@@ -1,0 +1,43 @@
+#movies img,
+#movie img {
+  width: 100%;
+}
+
+
+body {
+  background: linear-gradient(to bottom, #088395 0%, #071952 100%);
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 200;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #eee;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight:300  !important;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  background-color: transparent; /* dark blue */
+  color: #ffffff; /* white text */
+  border: 0.1px solid gray;
+  
+}
+
+.jumbotron {
+  background-color: #EBF4F6;
+}
+
+@media (min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}
